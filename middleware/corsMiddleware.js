@@ -23,7 +23,7 @@ const corsOptionDelegate = (req, callback) => {
 };
 
 const corsMiddleware = (app) => {
-    app.use (cors(CorsOptionsDelegate));
+    app.use (cors(corsOptionDelegate));
 };
 
 module.exports = corsMiddleware;
