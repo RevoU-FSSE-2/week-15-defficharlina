@@ -1,7 +1,7 @@
 const cors = require('cors')
 
-const origin = ["http://localhost:5173","https://week15-defficharlina.cyclic.app/"];
-const partnerOrigin = ["http://localhost:5174"];
+const origin = ["https://week15-defficharlina-fe.vercel.app", "https://week15-defficharlina.cyclic.app"];
+const partnerOrigin = ["https://week15.avicena.dev", "https://week-15-mnajmytsss.vercel.app"];
 
 const corsOptionDelegate = (req, callback) => {
     const clientOrigin = origin.includes (req.header ("Origin"));
