@@ -1,7 +1,7 @@
 
 
 # REVOU ASSIGNMENT WEEK 15
-This project is create an app use cors where client X, and client Y have different methods. Client X can GET, POST and client Y can GET, POST, UPDATE, DELETE
+This project is create an app use cors where client X, and client Y have different methods. Client X can GET, POST and client Y can GET, POST, UPDATE, DELETE 
 
 ## CORS
 
@@ -54,3 +54,9 @@ Security headers are a group of headers in the HTTP response from a server that 
   <p align="center">
     <img src="image/security headers.JPG" width="600">
   </p>
+
+  ## Link Deploy
+
+  **[Frontend](https://week15-defficharlina-fe.vercel.app)**
+
+  **[Backend](https://week15-defficharlina.cyclic.app)**
