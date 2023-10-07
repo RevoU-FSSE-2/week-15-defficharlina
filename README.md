@@ -1,7 +1,7 @@
 
 
 # REVOU ASSIGNMENT WEEK 15
-This project is create an app use cors where client X, and client Y have different methods. Client X can only CREATE, client Y can EDIT and DELETE.
+This project is create an app use cors where client X, and client Y have different methods. Client X can GET, POST and client Y can GET, POST, UPDATE, DELETE
 
 ## CORS
 
@@ -46,3 +46,11 @@ const partnerOrigin = [
   "https://week-15-mnajmytsss.vercel.app",
 ];
 ```
+
+#### Security Headers
+
+Security headers are a group of headers in the HTTP response from a server that tell your browser how to behave when handling your site's content. For example, X-XSS-Protection is a header that Internet Explorer and Chrome respect to stop pages loading when they detect cross-site scripting (XSS) attacks.
+
+  <p align="center">
+    <img src="image/security headers.JPG" width="600">
+  </p>
